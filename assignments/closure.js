@@ -1,6 +1,16 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+let num = 9
+
+const multiplyBy = function () {
+  let num2 = 2;
+  return num * num2;
+};
+
+console.log(multiplyBy())
+
+//any function that uses a variable outside of the scope is a closure. 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
